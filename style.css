@@ -96,9 +96,9 @@ h1, h2, h3 {
 }
 
 .botao-abrir-empresa{
-  background-color: #3F206E;
+  background-color: #FFAE00;
   padding: 10px;
-  color: #FFAE00;
+  color: #3F206E;
   font-weight: bold;
   border-radius: 10px;
   font-size: 22px;
@@ -109,9 +109,9 @@ h1, h2, h3 {
 }
 
 .botao-trocar-contador{
-  background-color: #3F206E;
+  background-color: white;
   padding: 10px;
-  color: #FFAE00;
+  color: #3F206E;
   font-weight: bold;
   border-radius: 10px;
   font-size: 22px;
