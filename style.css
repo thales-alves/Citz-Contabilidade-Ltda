@@ -111,6 +111,7 @@ h1, h2, h3 {
 .botao-trocar-contador{
   background-color: white;
   padding: 10px;
+  border: 2px solid;
   color: #3F206E;
   font-weight: bold;
   border-radius: 10px;
