@@ -43,7 +43,7 @@ nav a {
   background-color: #FFAE00;
   padding: 5px 8px 15px 8px ;
   border-radius: 10px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .chamada-topo:hover{
@@ -108,6 +108,11 @@ h1, h2, h3 {
   margin: 0 auto;
 }
 
+.botao-abrir-empresa:hover{
+  background-color: white;
+  border: 2px solid #FFAE00;
+}
+
 .botao-trocar-contador{
   background-color: white;
   padding: 10px;
@@ -120,6 +125,11 @@ h1, h2, h3 {
   text-decoration: none;
   display: inline-block;
   margin: 0 auto;
+  }
+
+  .botao-trocar-contador:hover{
+    background-color: #3F206E;
+    color: white;
   }
 
   .o-que-podemos-fazer{
