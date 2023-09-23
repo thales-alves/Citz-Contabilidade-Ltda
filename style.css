@@ -1,0 +1,136 @@
+@font-face {
+  font-family:'Galano';
+  src: url('Fonts/Font Galano/Galano Grotesque/Galano Grotesque.otf') format('opentype');
+  }
+
+@font-face {
+  font-family:'Gudea' ;
+  src: url('Fonts/Font Gudea/Gudea-Regular.ttf') format('truetype');
+}
+
+body {
+  width: 85%;
+  margin: 0 300px 0 175px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 0 100px 2px 100px;
+  justify-content:space-around;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: auto 30px auto 30px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Galano';
+}
+
+nav a {
+  text-decoration: none;
+  color: #3F206E;
+}
+
+.chamada-topo{
+  background-color: #FFAE00;
+  padding: 5px 8px 15px 8px ;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+.chamada-topo:hover{
+  color: white;
+}
+
+nav a:hover {
+  color: #FFAE00;
+  font-weight: bold;
+  }
+
+.logo img{
+  width: 200px;
+  margin: 0 60px 0 60px;
+}
+
+h1, h2, h3 {
+  font-family: 'Galano', 'Times';
+}
+
+p, li {
+  font-family: 'Gudea';
+  color: #3F305C;
+}
+
+h1, h2, h3 {
+  color: #3F206E;
+  }
+
+.primeira-chamada {
+  width: 50%;
+  display:inline-block;
+  margin-top: 50px;
+}
+
+.primeira-chamada p, li{
+  font-size: 20px;
+}
+
+.primeira-chamada h1{
+  font-size: 40px;
+}
+
+.destaque-especialista{
+  font-size: 30px;
+}
+
+.fale-especialista{
+  text-align: center;
+}
+
+.botao-abrir-empresa{
+  background-color: #3F206E;
+  padding: 10px;
+  color: #FFAE00;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 22px;
+  font-family: 'Galano';
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.botao-trocar-contador{
+  background-color: #3F206E;
+  padding: 10px;
+  color: #FFAE00;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 22px;
+  font-family: 'Galano';
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 auto;
+  }
+
+  .o-que-podemos-fazer{
+    width: 50%;
+  }
+
+
+
+
+
+
+.foto-cliente{
+  width: 100px;
+  height: 100px;
+}
