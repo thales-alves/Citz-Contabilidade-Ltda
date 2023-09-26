@@ -9,15 +9,15 @@
 }
 
 body {
-  width: 85%;
-  margin: 0 300px 0 175px;
+  width: 80%;
+  margin: auto;
 }
 
 header {
   display: flex;
   align-items: center;
-  padding: 0 100px 2px 100px;
-  justify-content:space-around;
+  padding: 0 50px 2px 50px;
+  justify-content: center;
 }
 
 nav ul{
@@ -41,13 +41,15 @@ nav a {
 
 .chamada-topo{
   background-color: #FFAE00;
-  padding: 5px 8px 15px 8px ;
+  padding: 5px 12px 15px 12px ;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .chamada-topo:hover{
-  color: white;
+  background-color: white;
+  color: #3F206E;
+  border: 2px solid #FFAE00;
 }
 
 nav a:hover {
@@ -56,8 +58,8 @@ nav a:hover {
   }
 
 .logo img{
-  width: 200px;
-  margin: 0 60px 0 60px;
+  width: 175px;
+  margin: 0 30px 0 30px;
 }
 
 h1, h2, h3 {
@@ -81,6 +83,11 @@ h1, h2, h3 {
 
 .primeira-chamada p, li{
   font-size: 20px;
+  text-align: justify;
+  }
+
+.primeira-chamada p{
+  width: 80%;
 }
 
 .primeira-chamada h1{
@@ -91,22 +98,23 @@ h1, h2, h3 {
   font-size: 30px;
 }
 
-.fale-especialista{
+.destaque-especialista{
+  width: 50%;
   text-align: center;
 }
 
 .botao-abrir-empresa{
   background-color: #FFAE00;
-  padding: 10px;
+  padding: 12px;
   color: #3F206E;
   font-weight: bold;
   border-radius: 10px;
-  font-size: 22px;
+  font-size: 20px;
   font-family: 'Galano';
   text-decoration: none;
   display: inline-block;
-  margin: 0 auto;
-}
+  margin: 0 50px 0 25px;
+  }
 
 .botao-abrir-empresa:hover{
   background-color: white;
@@ -115,16 +123,16 @@ h1, h2, h3 {
 
 .botao-trocar-contador{
   background-color: white;
-  padding: 10px;
+  padding: 12px;
   border: 2px solid;
   color: #3F206E;
   font-weight: bold;
   border-radius: 10px;
-  font-size: 22px;
+  font-size: 20px;
   font-family: 'Galano';
   text-decoration: none;
   display: inline-block;
-  margin: 0 auto;
+  margin: 0 25px 0 25px;
   }
 
   .botao-trocar-contador:hover{
