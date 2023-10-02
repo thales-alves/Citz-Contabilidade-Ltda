@@ -19,6 +19,12 @@ header {
   padding: 0 50px 2px 50px;
   justify-content: center;
   position: fixed;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+header.shrink {
+  padding: 10px; /* Reduza o padding, altere conforme necessário */
 }
 
 nav ul{
@@ -79,7 +85,7 @@ h1, h2, h3 {
 .primeira-chamada {
   width: 50%;
   display:inline-block;
-  margin-top: 50px;
+  margin-top: 12vh;
 }
 
 .primeira-chamada p, li{
