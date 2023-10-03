@@ -142,19 +142,22 @@ h1, h2, h3 {
   margin: 0 25px 0 25px;
   }
 
-  .botao-trocar-contador:hover{
-    background-color: #3F206E;
-    color: white;
-  }
+.botao-trocar-contador:hover{
+  background-color: #3F206E;
+  color: white;
+}
 
-  .o-que-podemos-fazer{
-    width: 50%;
-  }
+.o-que-podemos-fazer{
+  width: 50%;
+}
 
+.conteudoOculto{
+  cursor: pointer;
+}
 
-
-
-
+#escondido, #escondido2, #escondido3, #escondido4, #escondido5, #escondido6, #escondido7{
+  display: none;
+}
 
 .foto-cliente{
   width: 100px;
