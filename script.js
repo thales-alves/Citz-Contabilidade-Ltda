@@ -60,3 +60,17 @@ function escondido7() {
     texto.style.display = "none"; // Oculta o conteúdo se já estiver visível
   }
 }
+
+// Função para verificar a posição de rolagem da página
+function checkScroll() {
+  var header = document.querySelector('.header');
+  if (window.scrollY > 0) {
+    header.classList.add('smaller'); // Adiciona a classe 'smaller' quando a página é rolada para baixo
+  } else {
+    header.classList.remove('smaller'); // Remove a classe 'smaller' quando a página está no topo
+  }
+}
+
+// Verifica a posição de rolagem quando a página é carregada e quando a página é rolada
+window.addEventListener('load', checkScroll);
+window.addEventListener('scroll', checkScroll);

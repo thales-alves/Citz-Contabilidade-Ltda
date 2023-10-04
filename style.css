@@ -13,18 +13,24 @@ body {
   margin: auto;
 }
 
-header {
+.header {
   display: flex;
   align-items: center;
   padding: 0 50px 2px 50px;
   justify-content: center;
   position: fixed;
   background-color: white;
-  transition: all 0.3s ease;
-}
+  width: 75%;
+  transition: height 1s ease-in-out;
+  }
 
-header.shrink {
-  padding: 10px; /* Reduza o padding, altere conforme necessário */
+.header.smaller {
+  height: 50px;
+} 
+
+.header.smaller #logo{
+  width: 90px;
+  transition: max-width 0.3s ease-in-out;
 }
 
 nav ul{
@@ -91,14 +97,23 @@ h1, h2, h3 {
 .primeira-chamada p, li{
   font-size: 20px;
   text-align: justify;
+  padding: 5px;
   }
 
 .primeira-chamada p{
-  width: 80%;
+  width: 85%;
 }
 
 .primeira-chamada h1{
   font-size: 40px;
+}
+
+.tire-sua-empresa-titulo{
+  margin: 50px auto 0 auto;
+}
+
+.titulo-abertura{
+  margin-bottom: 50px;
 }
 
 .destaque-especialista{
@@ -108,6 +123,18 @@ h1, h2, h3 {
 .destaque-especialista{
   width: 50%;
   text-align: center;
+}
+
+.lista-servicos{
+  list-style: none;
+  padding-left: 0
+}
+
+.lista-servicos li::before {
+  content: "\2713"; 
+  color: #3F206E; 
+  font-size: 18px; 
+  margin-right: 8px; 
 }
 
 .botao-abrir-empresa{
@@ -121,7 +148,7 @@ h1, h2, h3 {
   text-decoration: none;
   display: inline-block;
   margin: 0 50px 0 25px;
-  }
+}
 
 .botao-abrir-empresa:hover{
   background-color: white;
@@ -148,7 +175,9 @@ h1, h2, h3 {
 }
 
 .o-que-podemos-fazer{
-  width: 50%;
+font-size: 30px;
+text-align: center;
+margin: 50px 0 20px 0;
 }
 
 .conteudoOculto{
