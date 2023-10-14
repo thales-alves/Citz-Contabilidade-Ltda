@@ -179,12 +179,6 @@ h1, h2, h3{
   color: white;
 }
 
-.o-que-podemos-fazer{
-font-size: 25px;
-text-align: center;
-margin: 50px 0 20px 0;
-}
-
 .conteudoOculto{
   width: 45%;
   font-family: 'Gudea ';
@@ -214,7 +208,11 @@ margin: 50px 0 20px 0;
   display: none;
 }
 
-.botoes2{
+#escondidoFAQ1, #escondidoFAQ2, #escondidoFAQ3, #escondidoFAQ4, #escondidoFAQ5, #escondidoFAQ6{
+  display: none;
+}
+
+.botoes2, .botoes5, .botoes6{
   text-align:center;
   margin: 50px 0;
 }
@@ -245,9 +243,103 @@ text-align: center;
   margin: 50px 0;
 }
 
+.titulo{
+  text-align: center;
+  font-size: 25px;
+}
 
+.subtitulo-nossos-servicos{
+  text-align: center;
+  font-size: 20px;
+}
+
+.servico{
+  display:inline-block;
+  width: 400px;
+  height: 150px;
+  margin: 25px 50px;
+  text-align: center;
+  border: solid 1px #3F206E;
+  }
+
+.botao-fale-com-a-citz{
+  background-color: #FFAE00;
+  padding: 8px;
+  color: #3F206E;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Galano';
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.botao-fale-com-a-citz:hover{
+  background-color: white;
+  border: 1px solid #FFAE00;
+}
+
+.botoes4{
+  margin: 40px 0;
+  text-align: center;
+}
+
+.planos{
+  display: inline-block;
+  text-align: center;
+  margin: 70px 114px;
+}
+
+#mostrarResposta{
+  cursor: pointer;
+}
+
+.carousel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.carousel-slide {
+  opacity: 1;
+  text-align: center;
+  transition: opacity 0.5s;
+  flex: 0 0 100%;
+}
+
+.carousel-slide.active {
+  opacity: 1;
+}
+
+.carousel-slide img {
+  max-width: 100%;
+}
+
+.prev-button, .next-button {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-button:hover, .next-button:hover {
+  background: #555;
+}
+
+.texto-contador{
+  text-align: justify;
+}
 
 .foto-cliente{
   width: 100px;
-  height: 100px;
 }
