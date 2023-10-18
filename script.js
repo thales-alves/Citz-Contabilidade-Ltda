@@ -14,7 +14,7 @@ function escondido2() {
   } else {
     texto.style.display = "none"; // Oculta o conteúdo se já estiver visível
   }
-}
+};
 
 function escondido3() {
   var texto = document.getElementById("escondido3");
@@ -129,28 +129,5 @@ function escondidoFAQ6() {
   }
 }
 
-
-
-const slides = document.querySelectorAll(".carousel-slide");
-let currentSlide = 0;
-
-function showSlide(slideIndex) {
-    slides[currentSlide].classList.remove("active");
-    slides[slideIndex].classList.add("active");
-    currentSlide = slideIndex;
-}
-
-function nextSlide() {
-    const next = (currentSlide + 1) % slides.length;
-    showSlide(next);
-}
-
-function prevSlide() {
-    const prev = (currentSlide - 1 + slides.length) % slides.length;
-    showSlide(prev);
-}
-
-showSlide(currentSlide);
-setInterval(nextSlide, 5000); // Trocar o slide a cada 5 segundos
 
 

@@ -16,7 +16,7 @@ body {
 .header {
   display: flex;
   align-items: center;
-  padding: 0 50px 2px 50px;
+  padding: 0 0 2px 115px;
   justify-content: center;
   position: fixed;
   background-color: white;
@@ -181,22 +181,27 @@ h1, h2, h3{
 
 .conteudoOculto{
   width: 45%;
-  font-family: 'Gudea ';
+  font-family: 'Gudea';
   color: #3F305C;
   padding: 1px 0;
+  background-color: #f8e2bad3;
+  padding: 2px;
+  margin: 10px;
+  border-radius: 15px;
 }
 
 #clickMostrar{
   cursor: pointer;
-  font-weight: bold;
   font-size: 20px;
   position: relative;
+  margin-left: 10px;
+  font-weight: bold;
 }
 
 #clickMostrar::after{
   content: "";
   position: absolute;
-  left: 100%;
+  left: 98%;
   transform: translateX(-50%);
   border: solid;
   border-width: 10px 8px 0 8px;
@@ -224,11 +229,13 @@ h1, h2, h3{
 
 .fluxo-troca{
   text-align: center;
+  width: 900px;
+  margin-left: 300px;
 }
 
 .passos-troca-contador{
 display: flex;
-margin: 0 400px;
+margin: 0 180px;
 text-align: center;
 }
 
@@ -236,6 +243,7 @@ text-align: center;
   flex: 1;
   flex-basis: 0;
   padding: 0 10px;
+  margin: 0 20px 0 20px;
 }
 
 .botao3{
@@ -291,8 +299,29 @@ text-align: center;
   margin: 70px 114px;
 }
 
+.divFAQ{
+  margin: 10px;
+  background-color: #f8e2ba;
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
 #mostrarResposta{
   cursor: pointer;
+  font-family: 'Gudea';
+  margin-left: 8px;
+}
+
+#mostrarResposta::after{
+  content: "";
+  position: absolute;
+  left: 85%;
+  transform: translateX(-50%);
+  border: solid;
+  border-width: 10px 8px 0 8px;
+  border-color: #333 transparent transparent transparent;
+  margin-top: 10px;
 }
 
 .carousel {
@@ -300,6 +329,7 @@ text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 120px;
 }
 
 .carousel-container {
@@ -310,7 +340,7 @@ text-align: center;
 }
 
 .carousel-slide {
-  opacity: 1;
+  opacity: 0;
   text-align: center;
   transition: opacity 0.5s;
   flex: 0 0 100%;
@@ -324,7 +354,8 @@ text-align: center;
   max-width: 100%;
 }
 
-.prev-button, .next-button {
+.prev-button,
+.next-button {
   background: #333;
   color: #fff;
   padding: 10px 20px;
@@ -332,12 +363,41 @@ text-align: center;
   cursor: pointer;
 }
 
-.prev-button:hover, .next-button:hover {
+.prev-button:hover,
+.next-button:hover {
   background: #555;
 }
 
 .texto-contador{
   text-align: justify;
+}
+
+#solucoes{
+  margin: 120px 0;
+}
+
+#servicos{
+  margin: 120px 0;
+}
+
+#planos{
+  margin: 120px 0;
+}
+
+#faq{
+  margin-bottom: 120px;
+}
+
+#contador-online{
+  margin-bottom: 120px;
+}
+
+footer{
+  background-color: #3F305C;
+}
+
+.logo-rodape{
+  width: 200px;
 }
 
 .foto-cliente{
