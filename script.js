@@ -131,3 +131,23 @@ function escondidoFAQ6() {
 
 
 
+document.addEventListener('DOMContentLoaded', function () {
+  const nomes = ['info1', 'info2', 'info3', 'info4', 'info5', 'info6', 'info7', 'info8'];
+
+  nomes.forEach(nome => {
+    const nomeElement = document.getElementById(nome);
+    const infoElement = document.getElementById(`info${nome.charAt(nome.length - 1)}`);
+
+    nomeElement.addEventListener('mouseenter', function () {
+      // Esconder todas as infos
+      document.querySelectorAll('.info').forEach(info => {
+        info.style.display = 'none';
+      });
+
+      // Mostrar a info correspondente
+      infoElement.style.display = 'block';
+    });
+  });
+});
+
+
