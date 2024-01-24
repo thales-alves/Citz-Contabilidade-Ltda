@@ -91,20 +91,14 @@ nav a:hover {
 
 h1, h2, h3{
   font-family: 'Galano', 'Times';
+  color: #3F305C;
 }
 
 p{
   font-family: 'Gudea';
   color: #3F305C;
-}
-
-p{
   line-height: 33px;
 }
-
-h1, h2, h3{
-  color: #3F206E;
-  }
 
 .etapas-troca h3{
   font-size: 25px;
@@ -419,11 +413,7 @@ text-align: center;
 }
 
 #contador-online{
-  margin-bottom: 120px;
-}
-
-footer{
-  background-color: #3F305C;
+  margin-bottom: 70px;
 }
 
 .logo-rodape{
@@ -451,13 +441,13 @@ footer{
   display: flex;
   justify-content: space-around;
   align-items: start;
-  padding-bottom: 100px;
-  margin: 100px 0 0 0;
+  padding-bottom: 50px;
 }
 
 #titulo-rodape{
-  color: white;
-  font-size: 25px;
+  color: #FFAE00;
+  font-size: 23px;
+  font-weight: bold;
 }
 
 #lista-rodape{
@@ -466,7 +456,7 @@ footer{
 
 #links-rodape{
   text-decoration: none;
-  color: #FFAE00;
+  color: #3F206E;
   display: flex;
   font-size: 20px;
 }
