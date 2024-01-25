@@ -442,11 +442,12 @@ text-align: center;
   justify-content: space-around;
   align-items: start;
   padding-bottom: 50px;
+  font-family: 'Gudea';
 }
 
 #titulo-rodape{
   color: #FFAE00;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -458,5 +459,10 @@ text-align: center;
   text-decoration: none;
   color: #3F206E;
   display: flex;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+#logos-redes{
+  width: 40px;
+  padding: 2px;
 }
