@@ -279,7 +279,7 @@ text-align: center;
 
 .servico{
   display:inline-block;
-  width: 430px;
+  width: 400px;
   height: 180px;
   margin: 25px 50px;
   text-align: center;
@@ -325,6 +325,29 @@ text-align: center;
 
 .planos h3{
   font-size: 20px;
+}
+
+#plano1, #plano2, #plano3{
+  border: 1px solid #FFAE00;
+  height: 350px;
+  width: 250px;
+  border-radius: 10px;
+  padding: 0 10px 10px 10px;
+}
+
+.saiba-mais{
+text-decoration: none;
+color: #3F305C;
+background-color: #FFAE00;
+padding: 10px;
+border-radius: 10px;
+font-size: 13pt;
+}
+
+.saiba-mais:hover{
+  background-color: white;
+  color: #3F206E;
+  border: 2px solid #FFAE00;
 }
 
 .divFAQ{
@@ -428,13 +451,6 @@ text-align: center;
   color: #3F206E;
   text-align: center;
   font-size: 20px;
-}
-
-.servico-efeito{
-  display: none;
-  border: 1px solid #ddd;
-  padding: 10px;
-  margin-left: 10px;
 }
 
 .rodape{
