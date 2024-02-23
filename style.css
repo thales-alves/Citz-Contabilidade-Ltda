@@ -89,6 +89,29 @@ nav a:hover {
   margin: 0 30px 0 30px;
 }
 
+.links ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #cac7cc24;
+  transition: 0.9s;
+  border-radius: 10px;
+  font-size: 8pt;
+}
+
+.dropdown-menu li {
+  display: block;
+  white-space: nowrap;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 h1, h2, h3{
   font-family: 'Galano', 'Times';
   color: #3F305C;
