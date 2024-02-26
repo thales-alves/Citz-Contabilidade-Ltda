@@ -8,19 +8,64 @@
   src: url('Fonts/Font Gudea/Gudea-Regular.ttf') format('truetype');
 }
 
-/*RESPONSIVIDADE*/
+/*RESPONSIVIDAE*/
 
-@media only screen and (max-width: 600px) and (orientation: portrait) {
- nav li{
- font-size: 12px;
- } 
+/* Estilos para notebooks*/
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
+
+  .body{
+     font-size: 15px;
+  }
+
+  .header {
+      padding: 0 0 2px 15px;
+      width: 85%;
+  }
   
- .chamada-topo{
-  font-size: 10px;
- }
+  .header #logo {
+      width: 160px;
+  }
 
+  .servico {
+      width: 385px;
+    }
 
 }
+
+/* Estilos para telas de tablets*/
+@media screen and (max-width: 1024px) {
+  .header {
+      padding: 0 0 2px 15px;
+      width: 85%;
+  }
+  
+  .header #logo {
+      width: 140px;
+  }
+  
+  nav li {
+      margin: auto 10px auto 10px;
+      font-size: 14px;
+  }
+}
+
+/* Estilos para telas de smartphones */
+@media screen and (max-width: 600px) {
+  .header {
+      padding: 0 0 2px 10px;
+      width: 100%;
+  }
+  
+  .header #logo {
+      width: 120px;
+  }
+  
+  nav li {
+      margin: auto 5px auto 5px;
+      font-size: 12px;
+  }
+}
+
 
 body {
   width: 80%;
@@ -30,11 +75,11 @@ body {
 .header {
   display: flex;
   align-items: center;
-  padding: 0 0 2px 115px;
+  padding: 0 0 2px 15px;
   justify-content: center;
   position: fixed;
   background-color: white;
-  width: 75%;
+  width: 85%;
   transition: height 1s ease-in-out;
   }
 
@@ -55,8 +100,8 @@ nav ul{
 }
 
 nav li {
-  margin: auto 30px auto 30px;
-  font-size: 20px;
+  margin: auto 15px auto 15px;
+  font-size: 16px;
   font-weight: bold;
   font-family: 'Galano';
 }
@@ -97,7 +142,7 @@ nav a:hover {
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: #cac7cc24;
+  background-color: #cac7ccf9;
   transition: 0.9s;
   border-radius: 10px;
   font-size: 8pt;
@@ -268,21 +313,28 @@ p{
 
 .fluxo-troca{
   text-align: center;
-  width: 900px;
-  margin-left: 300px;
+  margin: auto 14%;
+  max-width: 900px;
+  width: 70%;
 }
 
 .passos-troca-contador{
 display: flex;
-margin: 0 180px;
+margin: auto 13%;
 text-align: center;
 }
 
-.etapas-troca{
-  flex: 1;
-  flex-basis: 0;
+.etapas-troca-1, .etapas-troca-2, .etapas-troca-3 {
+  display: flex;
   padding: 0 10px;
-  margin: 0 20px 0 20px;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linha-vertical {
+  border-left: 1px solid #3F206E;
+  height: 180px;
 }
 
 .botao3{
@@ -302,8 +354,8 @@ text-align: center;
 
 .servico{
   display:inline-block;
-  width: 400px;
-  height: 180px;
+  width: 300px;
+  height: auto;
   margin: 25px 50px;
   text-align: center;
   border: solid 1px #3F206E;
@@ -341,9 +393,10 @@ text-align: center;
 }
 
 .planos{
-  display: inline-block;
-  text-align: center;
-  margin: 70px 114px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px auto;
 }
 
 .planos h3{
@@ -352,10 +405,19 @@ text-align: center;
 
 #plano1, #plano2, #plano3{
   border: 1px solid #FFAE00;
-  height: 350px;
-  width: 250px;
   border-radius: 10px;
-  padding: 0 10px 10px 10px;
+  width: 300px;
+  height: 370px;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.saiba-mais{
+  font-family: 'Gudea';
+  font-weight: bold;
 }
 
 .saiba-mais{
@@ -447,11 +509,7 @@ font-size: 13pt;
 }
 
 #servicos{
-  margin: 120px 0;
-}
-
-#planos{
-  margin: 120px 0;
+  margin: 60px 0;
 }
 
 #faq{
