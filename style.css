@@ -40,12 +40,17 @@
   }
   
   .header #logo {
-      width: 140px;
+      width: 100px;
   }
   
   nav li {
       margin: auto 10px auto 10px;
-      font-size: 14px;
+      font-size: 12px;
+  }
+
+  .chamada-topo{
+    font-size: 12px;
+    padding: 3px;
   }
 }
 
